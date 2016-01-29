@@ -15,7 +15,7 @@ public class UserManagerImpl implements UserManager {
 	@Autowired
     private UserDAO userDAO;
 
-	@Transactional
+	//@Transactional
 	public List<UserEntity> getAllUsers() {
 		return userDAO.getAllUsers();
 	}

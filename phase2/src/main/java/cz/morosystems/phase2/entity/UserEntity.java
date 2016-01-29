@@ -12,7 +12,7 @@ public class UserEntity {
      
     @Id
     @Column(name="ID")
-    @GeneratedValue
+    //@GeneratedValue
     private Integer id;
      
     @Column(name="NAME")
